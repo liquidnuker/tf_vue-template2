@@ -13,8 +13,8 @@
       return {
         debug: true,
         state: {
-          message1: "xxxx1",
-          message2: "xxxx2"
+          message1: "storemessage1",
+          message2: "storemessage2"
         }
       }
     }
