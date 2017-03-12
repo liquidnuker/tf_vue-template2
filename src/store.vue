@@ -2,7 +2,7 @@
   <div id="app-component">
     <!-- <img src="./assets/img.png"> -->
     <h1>{{ state.message1 }}</h1>
-    <h2>app-component-h2</h2>
+    <h2>store-h2</h2>
   </div>
 </template>
 
