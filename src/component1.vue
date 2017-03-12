@@ -1,7 +1,7 @@
 <template>
   <div id="app-component">
     <!-- <img src="./assets/img.png"> -->
-    <h1>{{ msg }}</h1>
+    <h1>{{ state.message1 }}</h1>
     <h2>app-component-h2</h2>
   </div>
 </template>
@@ -11,7 +11,11 @@
     name: 'app-component',
     data () {
       return {
-        msg: 'app-component-msg'
+        debug: true,
+        state: {
+          message1: "xxxx1",
+          message2: "xxxx2"
+        }
       }
     }
   }

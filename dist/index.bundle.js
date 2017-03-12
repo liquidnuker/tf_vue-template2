@@ -9593,7 +9593,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   name: 'app-component',
   data: function data() {
     return {
-      msg: 'app-component-msg'
+      debug: true,
+      state: {
+        message1: "xxxx1",
+        message2: "xxxx2"
+      }
     };
   }
 };
@@ -9608,7 +9612,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "id": "app-component"
     }
-  }, [_c('h1', [_vm._v(_vm._s(_vm.msg))]), _vm._v(" "), _c('h2', [_vm._v("app-component-h2")])])
+  }, [_c('h1', [_vm._v(_vm._s(_vm.state.message1))]), _vm._v(" "), _c('h2', [_vm._v("app-component-h2")])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
