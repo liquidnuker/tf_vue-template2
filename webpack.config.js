@@ -58,10 +58,8 @@ module.exports = {
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.common.js'
-    }
-    // modules: [
-    //     'D:/WINDOWS/GD2/web/dev/_npm/libs/vue_2.1.10/node_modules'
-    //   ]
+    },
+    modules: ['../node_modules']
   },
   // devServer: {
   //   historyApiFallback: true,
